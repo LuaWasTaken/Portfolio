@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #836fff 50.4%, #483d8b 75.1%);
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  background: #e0ffff;
+  color: #1c1c1c;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 60px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+img {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.titulo {
+  margin-left: 15px;
+}
+
+.titulo h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  padding: 8px 16px;
+  font-size: 16px;
+  background: #b0e0e6;
+  border-color: #ffffff;
+  border-radius: 5px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #7b68ee;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 2px 2px 4px 0px #1010106b;
+  border-radius: 5px;
+}
+
+.projetosTitulo {
+  list-style: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.projetosLista {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+li {
+  color: #e0ffff;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #191970 25%, #4b0082 90%);
+}
+
+.dark .container {
+  background: #b0c4de;
+  color: #ffffff;
+}
+
+.dark .projetos {
+  background: #483d8b;
+}
+
+.dark .tema button {
+  background: #483d8b;
+  color: #ffffff;
+}
